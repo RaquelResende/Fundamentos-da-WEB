@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+p {
+    font-family: sans-serif;
+}
+
+.tira{
+    color: rgb(0, 0, 0);
+    background-color: rgb(173, 236, 228);
+}
+
+.pg-principal{
+    color:rgb(77, 72, 72);
+    text-align: center;
+      
+    }
+
+    .produtos_imagens{
+        background-color: rgb(51, 165, 152);
+        text-align: center;
+        color: aliceblue;
+      
+    }
+    .imagens{
+        padding-bottom: 50px;
+    }
+
+    .titulo3{
+        text-align: center;
+      
+    }
+
+.menu li:hover{
+    color: aliceblue;
+}
+
+
+.contato{
+    text-align: center;
+}

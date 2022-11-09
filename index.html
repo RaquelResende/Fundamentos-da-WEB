@@ -5,11 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+   /*
+   tornando padrao o site
+  */
+   p {
+        font-family: sans-serif;
+    }
+
+    /*
+    seletor por id apenas componentes terá uma estilização
+    */
+
+
+    /*
+    Seletor por class - indicaq todo mundo q indica uma certa class terá uma estilização especifica 
+
+    */
+    
+    .pg-principal{
+    color:rgb(77, 72, 72);
+    text-align: center;
+      
+    }
+   
+
+    </style>
+
+
+
 </head>
 <body>
 
     <!-- Utilizando lista nós usamos tanto ol ou ul-->
-    
+    <div class="tira menu">
+        
     <ul>
         <li>
     <a href="index.html">Home</a>
@@ -18,44 +49,41 @@
          <li>
     <a href="contato.html">Contato</a>
         </li>
+         <li>
+        <a href=""> Sobre</a>
+        </li>
+
     </ul>
+    </div>
 
     <!-- TÍTULOS UTILIZADREMOS OS (H1,H2....H6)-->
-    <h1>Pico Frute</h1>
+    <h1 style="text-align:center ;">Pico Frute</h1>
     <!-- PARÁGROFO , <p> -->
-        <h2>Sobre a Empresa </h2>
-        
-
-        <P> 
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, eius labore. Inventore voluptate aliquam praesentium dolor tempora assumenda labore similique vero incidunt animi. Numquam quos voluptatibus exercitationem pariatur, laudantium amet! 
-        </P>
-
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fugit similique voluptas molestias aliquam consequatur veritatis amet aperiam qui illo? Est tempore voluptas inventore soluta, provident esse at animi deleniti!
-        </p>
-   
-        <h2> </h2>
-      <!-- PaRA UTILIZAR IMAGENS A TAG <img>-->
-      <div align  ="center">
-      <img src= "assets/img/jpg_20221108_120737_0000.jpg"alt="serviços e preços do produto " width="" height=""> 
-      </div>
-
-     
-        <img src= ""alt="serviços e preços do produto " width="200" height="4000"> 
+        <!-- PaRA UTILIZAR IMAGENS A TAG <img>-->
+      <div align="center">
+        <img src= "assets/img/jpg_20221108_120737_0000.jpg"alt="serviços e preços do produto " width="900" height="400"> 
         </div>
   
-
-      <h2>Processo de Fabricação </h2>
+  <h2 class ="titulo3" >Processo de Fabricação </h2>
+        
+   <div class="pg-principal">  
+    
       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, sapiente aut aspernatur voluptas voluptates exercitationem blanditiis repellendus modi aliquam rerum omnis dolor, atque, molestias ipsa architecto esse autem. Pariatur, magni?</p>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/3bHq1Ym4yQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   
-      <h2> Produtos</h2>
+
+      </div>
       
+      <div class ="produtos_imagens">
+      <h2 > Produtos</h2>
+
+      <div class="imagens">
       <img src= "assets/img/IMG_20221015_160627_981.jpg"alt="serviços e preços do produto " width="200" height="200"> 
       
       <img src= "assets/img/IMG_20221106_203439_599.jpg"alt="serviços e preços do produto " width="200" height="200"> 
       
       <img src= "assets/img/jpg_20221022_200501_0000.jpg"alt="serviços e preços do produto " width="200" height="200"> 
+      <img src= ""alt="serviços e preços do produto " width="200" height="200"> 
+      </div>
     </div>
 
    
