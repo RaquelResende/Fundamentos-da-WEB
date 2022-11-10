@@ -11,7 +11,7 @@ p {
 
 .tira{
     color: rgb(0, 0, 0);
-    background-color: rgb(173, 236, 228);
+    background-color: rgb(67, 152, 139);
 }
 
 .pg-principal{
@@ -35,11 +35,79 @@ p {
       
     }
 
+    .menu a{
+        text-decoration: nome;
+        color: black;
+    }
+
 .menu li:hover{
     color: aliceblue;
 }
 
+.menu li{
+    display: inline;
+    margin: 5px;
+}
 
 .contato{
     text-align: center;
+}
+
+.conteiner{
+    display:flex ;
+    align-items:center ;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+ .tm.icon{
+    height: 75;
+    width: auto;
+ }
+
+ .form-flex{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center ;
+ }
+
+.p-mw{
+    max-width: 400px;
+    text-align: justify;
+    
+}
+.p-30{
+    padding: 30px;
+}
+
+ .mb-10{
+    margin-bottom: 10px;
+ }
+ .tm-btn{
+    height:fit-content ;
+    width: fit-content; 
+ }
+
+ .tm.f{
+    margin-bottom: 10px;
+ }
+ .p-20{
+    padding: 20px;
+ }
+ .p-10{
+    padding: 10px;
+ }
+ .tm-icon {
+    height: 30px;
+    width: auto;
+}
+.p-50{
+    padding-right: 100px;
+}
+.p-p15{
+   padding-top: 15px; 
+}
+
+.tm-icon1 {
+    height: 80px;
+    width: auto;
 }
